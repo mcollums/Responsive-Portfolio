@@ -187,7 +187,6 @@ li a:hover {
     #contactSection {
         margin-left: 30px;
         width: 90%;
-        line-height: 1.5em;
         font-size: 12pt;
     }
 
@@ -218,7 +217,7 @@ li a:hover {
     }
 
     #contactSection {
-        margin-top: 20px;
+        margin-top: 60px;
     }
 
     #biophoto {
@@ -238,5 +237,9 @@ li a:hover {
         font-size: 10pt;
         color: #ccc;
         margin-top: 25px;
+    }
+
+    .inputbox {
+        margin-bottom: 10px;
     }
 }
