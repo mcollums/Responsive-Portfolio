@@ -46,22 +46,38 @@ footer {
     font-family:'Georgia', Times, Times New Roman, serif;
 }
 
-/* Navigation block*/
-#navigation {
-    text-decoration: none;
-    font-family:'Georgia', Times, "Times New Roman", serif;
-    float: left;
+/* Navigation Formatting */
+.navbarlist {
+    height: 102 px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     color: rgb(110, 110, 110);
-    height: 17.75px;
-    margin: 57px 0px;
-    margin-left: 360px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+    float: right;
+    padding-right: 162px;
+    padding-top: 50px;
 }
 
-/* Links for the navigation block*/
-.navlink {
-    padding: 10px;  
+li {
+    float: left;
 }
 
+li a {
+    display: block;
+    color: #666;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: rgb(221, 221, 221);
+}
+
+/* Portfolio section formatting begins */
 #portfolioSection {
     width: 960px;
     padding: 30px; 
@@ -82,7 +98,7 @@ footer {
     color: #4aaaa5;
     font-size: 20pt;
 }
- /* */
+
 /* Line seperating the heading and the blocks*/
 #hrPortfolio {
     color: #666666;
@@ -130,8 +146,109 @@ footer {
 }
 
 #copyright {
-    color: rgba(255, 255, 255, 0.801);
+    color: #ccc;
     text-align: center;
-    opacity: 60%;
     margin-top: 50px; 
+}
+
+/* Formatting for screens 980px and below */
+@media screen and (max-width: 980px) {
+    #portfolioSection {
+        margin-left: 100px;
+        width: 60%;
+        margin-top: 30px;
+    }
+    
+    header {
+        height: 50px;
+        border-width: thin;
+    }
+
+    #headerName {
+        height: 30px;
+        padding: 11px 20px 10px 20px;
+        font-size: 18pt;
+        margin-left: 100px;
+    }
+
+    .navbarlist {
+        padding-right: 20px;
+        padding-top: 0px;
+        font-size: 12pt;
+    }
+
+    .portfolio-images {
+        width: 200px;
+        height: 200px;
+    }
+
+    .text-block {
+        width: 200px;
+        height: 50px;
+    }
+
+    .image-text {
+        font-size: 12pt;
+        text-align: center;
+        margin-left: 0px;
+        margin-top: 16px;
+    }
+
+    #portfolioHeading {
+        margin: 10px 0px;
+    }
+}
+
+/* Formatting for screens 768px and below */
+@media screen and (max-width: 768px) {
+    #headerName {
+        margin-left: 30px;
+    }
+
+    .navbarlist {
+        font-size: 11pt;
+        margin-right: 45px;
+        margin-top: 5px;
+    }
+
+    #portfolioSection {
+        margin-left: 30px;
+        width: 90%;
+        font-size: 12pt;
+    }
+}
+
+/* Formatting for screens 640px and below */
+@media screen and (max-width: 640px) {
+    #headerName {
+        clear: both;
+        width: 100%;
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .navbarlist {
+        width: 100%;
+        text-align: center;
+        padding: 0;
+        margin: 0 auto;
+    }
+
+    #portfolioSection {
+        margin-top: 20px;
+    }
+
+    footer {
+        clear: both;
+        position: fixed;
+        padding-bottom: 0;
+        height: 60px; 
+        margin-top: -50px;
+    }
+
+    #copyright {
+        font-size: 10pt;
+        color: #ccc;
+        margin-top: 25px;
+    }
 }

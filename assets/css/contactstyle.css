@@ -189,15 +189,6 @@ li a:hover {
         width: 90%;
         font-size: 12pt;
     }
-
-    p {
-        margin-top: 0;
-    }
-
-    #biophoto {
-        margin-top: 0;
-    }
-
 }
 
 /* Formatting for screens 640px and below */

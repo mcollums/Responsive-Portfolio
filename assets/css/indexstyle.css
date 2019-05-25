@@ -44,7 +44,7 @@ footer {
     float: left;
     font-family:'Georgia', Times, "Times New Roman", serif;
 }
-
+ /* Navigation formatting */
 .navbarlist {
     height: 102 px;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -75,12 +75,8 @@ li a:hover {
     background-color: rgb(221, 221, 221);
 }
 
-/* Line seperating the H1 About Me Header from the img and p tags */
-#hrAboutMe {
-    color: #666666;
-    border-width: 1px;
-}
 
+/* About me section Formatting Begins */
 #aboutMeSection {
     width: 960px;
     padding: 10px 30px; 
@@ -102,6 +98,12 @@ li a:hover {
     font-size: 20pt;
 }
 
+/* Line seperating the H1 About Me Header from the img and p tags */
+#hrAboutMe {
+    color: #666666;
+    border-width: 1px;
+}
+
 #biophoto {
     float: left;
     margin: 10px 15px 10px 0px;
@@ -118,7 +120,6 @@ li a:hover {
 
 #copyright {
     color: #ccc;
-    opacity: 60%;
     text-align: center;
     margin-top: 50px; 
 }
