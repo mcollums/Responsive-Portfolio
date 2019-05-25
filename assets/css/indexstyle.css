@@ -42,21 +42,38 @@ footer {
     margin-top: 0px;
     margin-bottom: 0px;
     float: left;
-    font-family:'Georgia', Times, Times New Roman, serif;
-}
-
-#navigation {
-    text-decoration: none;
     font-family:'Georgia', Times, "Times New Roman", serif;
-    float: left;
-    color: rgb(110, 110, 110);
-    height: 17.75px;
-    margin: 57px 0px;
-    margin-left: 360px;
 }
 
-.navlink {
-    padding: 10px;  
+.navbar {
+    height: 102 px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(110, 110, 110);
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+    float: right;
+    padding-right: 163px;
+    padding-top: 50px;
+   
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: #666;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: rgb(221, 221, 221);
 }
 
 #hrAboutMe {
@@ -105,4 +122,36 @@ footer {
     opacity: 60%;
     text-align: center;
     margin-top: 50px; 
+}
+
+@media screen and (max-width: 980px) {
+    #aboutMeSection {
+        width: 60%;
+    }
+
+    header {
+        height: 50px;
+        border-width: thin;
+    }
+
+    #headerName {
+        height: 30px;
+        padding: 11px 20px 10px 20px;
+        font-size: 18pt;
+    }
+
+    .navbar {
+        padding-right: 20px;
+        padding-top: 0px;
+        font-size: 12pt;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    
+}
+
+@media screen and (max-width: 640px) {
+    
 }
