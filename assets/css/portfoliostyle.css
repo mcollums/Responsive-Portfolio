@@ -215,6 +215,30 @@ li a:hover {
         margin-left: 30px;
         width: 90%;
         font-size: 12pt;
+
+    }
+
+    .portfolio-images {
+        width: 275px;
+        height: 275px;
+        margin-left: 10px;
+    }
+
+    .text-block {
+        width: 275px;
+        height: 50px;
+        margin-left: 10px;
+    }
+
+    .image-text {
+        font-size: 12pt;
+        text-align: center;
+        margin-left: 0px;
+        margin-top: 16px;
+    }
+
+    #portfolioHeading {
+        margin: 10px 0px;
     }
 }
 
@@ -240,7 +264,6 @@ li a:hover {
 
     footer {
         clear: both;
-        position: fixed;
         padding-bottom: 0;
         height: 60px; 
         margin-top: -50px;
@@ -250,5 +273,38 @@ li a:hover {
         font-size: 10pt;
         color: #ccc;
         margin-top: 25px;
+    }
+
+    #portfolioSection {
+        margin-left: 30px;
+        margin-top: 70px;
+        width: 90%;
+        font-size: 12pt;
+    }
+
+    .portfolio-images {
+        width: 450px;
+        height: 450px;
+        margin-left: 20px;
+        margin-bottom: 20px;
+    }
+
+    .text-block {
+        width: 450px;
+        height: 100px;
+        margin-left: 20px;
+        margin-bottom: 20px;
+        bottom: 22px;
+    }
+
+    .image-text {
+        font-size: 24pt;
+        text-align: center;
+        margin-left: 0px;
+        margin-top: 25px;
+    }
+
+    #portfolioHeading {
+        margin: 10px 0px;
     }
 }
