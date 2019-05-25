@@ -7,7 +7,6 @@
 body {
     margin: 0;
     background-image: url(../images/papyrus.png);
-    height: 100%;
 }
 
 a {
@@ -43,23 +42,43 @@ footer {
     margin-top: 0px;
     margin-bottom: 0px;
     float: left;
-    font-family:'Georgia', Times, Times New Roman, serif;
-}
-
-/* Navigation block*/
-#navigation {
-    text-decoration: none;
     font-family:'Georgia', Times, "Times New Roman", serif;
-    float: left;
-    color: rgb(110, 110, 110);
-    height: 17.75px;
-    margin: 57px 0px;
-    margin-left: 360px;
 }
 
-/* Links for the navigation block*/
-.navlink {
-    padding: 10px;  
+.navbarlist {
+    height: 102 px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(110, 110, 110);
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+    float: right;
+    padding-right: 163px;
+    padding-top: 50px;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: #666;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: rgb(221, 221, 221);
+}
+
+/* Line seperating the heading and the contact form*/
+#hrContact {
+    color: #666666;
+    border-width: 1px;
 }
 
 #contactSection {
@@ -71,8 +90,7 @@ footer {
     border: lightgrey;
     border-style:solid;
     border-width: 1px;
-    margin-left: 211px;
-    margin-bottom: 100px;
+    margin: 50px 0px 211px 100px;
     font-family: Arial, Helvetica, sans-serif;
     color: #777777; 
 }
@@ -83,16 +101,7 @@ footer {
     font-size: 20pt;
 }
 
-/* Line seperating the heading and the contact form*/
-#hrContact {
-    color: #666666;
-    border-width: 1px;
-}
-
-.formTitles {
-    padding: 0px;;
-}
-
+/* Formatting for the input boxes in the form element */
 .inputBox {
     margin: 0px 0px;
     padding: 10px 0px;
@@ -122,6 +131,7 @@ footer {
     border:1px solid #cacaca;
 }
 
+/* This is the teal line just above the footer */
 #hrBottomTeal {
     margin: 0;
     border-width: 2px;
@@ -129,9 +139,104 @@ footer {
     clear: both;
 }
 
+/* This is the copyright tag in the footer */
 #copyright {
-    color: white;
-    opacity: 60%;
+    color: #ccc;
     text-align: center;
     margin-top: 50px; 
+}
+
+/* Formatting for screens 980px and below */
+@media screen and (max-width: 980px) {
+    #contactSection {
+        margin-left: 100px;
+        width: 60%;
+    }
+
+    header {
+        height: 50px;
+        border-width: thin;
+    }
+
+    #headerName {
+        height: 30px;
+        padding: 11px 20px 10px 20px;
+        font-size: 18pt;
+        margin-left: 100px;
+    }
+
+    .navbarlist {
+        padding-right: 20px;
+        padding-top: 0px;
+        font-size: 12pt;
+    }
+}
+
+/* Formatting for screens 768px and below */
+@media screen and (max-width: 768px) {
+    #headerName {
+        margin-left: 30px;
+    }
+
+    .navbarlist {
+        font-size: 11pt;
+        margin-right: 45px;
+        margin-top: 5px;
+    }
+
+    #contactSection {
+        margin-left: 30px;
+        width: 90%;
+        line-height: 1.5em;
+        font-size: 12pt;
+    }
+
+    p {
+        margin-top: 0;
+    }
+
+    #biophoto {
+        margin-top: 0;
+    }
+
+}
+
+/* Formatting for screens 640px and below */
+@media screen and (max-width: 640px) {
+    #headerName {
+        clear: both;
+        width: 100%;
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .navbarlist {
+        width: 100%;
+        text-align: center;
+        padding: 0;
+        margin: 0 auto;
+    }
+
+    #contactSection {
+        margin-top: 20px;
+    }
+
+    #biophoto {
+        width: 90%;
+        margin-left: 20px;
+    }
+
+    footer {
+        clear: both;
+        position: fixed;
+        padding-bottom: 0;
+        height: 60px; 
+        margin-top: -50px;
+    }
+
+    #copyright {
+        font-size: 10pt;
+        color: #ccc;
+        margin-top: 25px;
+    }
 }

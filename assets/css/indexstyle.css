@@ -75,6 +75,7 @@ li a:hover {
     background-color: rgb(221, 221, 221);
 }
 
+/* Line seperating the H1 About Me Header from the img and p tags */
 #hrAboutMe {
     color: #666666;
     border-width: 1px;
@@ -82,7 +83,7 @@ li a:hover {
 
 #aboutMeSection {
     width: 960px;
-    padding: 30px; 
+    padding: 10px 30px; 
     text-align: center;
     background-color: white;
     clear: both;
@@ -90,8 +91,7 @@ li a:hover {
     border: lightgrey;
     border-style:solid;
     border-width: 1px;
-    margin-left: 211px;
-    margin-bottom: 100px;
+    margin: 50px 0px 211px 100px;
     font-family: Arial, Helvetica, sans-serif;
     color: #777777; 
 }
@@ -117,12 +117,13 @@ li a:hover {
 }
 
 #copyright {
-    color: white;
+    color: #ccc;
     opacity: 60%;
     text-align: center;
     margin-top: 50px; 
 }
 
+/* Formatting for screens 980px and below */
 @media screen and (max-width: 980px) {
     #aboutMeSection {
         width: 60%;
@@ -155,6 +156,7 @@ li a:hover {
     }
 }
 
+/* Formatting for screens 768px and below */
 @media screen and (max-width: 768px) {
     #headerName {
         margin-left: 30px;
@@ -180,9 +182,9 @@ li a:hover {
     #biophoto {
         margin-top: 0;
     }
-
 }
 
+/* Formatting for screens 640px and below */
 @media screen and (max-width: 640px) {
     #headerName {
         clear: both;
