@@ -1,0 +1,137 @@
+
+* {
+    text-align: left; 
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-image: url(../images/papyrus.png);
+    height: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(110, 110, 110);
+}
+
+header {
+    box-sizing: content-box;
+    background-color: white;
+    height: 100px;
+    border-width: 1px;
+    border-color: grey;
+    border-style: solid;
+}
+
+footer {
+    background-color: grey;
+    clear: both;
+    padding-bottom: 0;
+    height: 100px; 
+    margin-top: -50px;
+}
+
+/* This is for the static block with my name*/
+#headerName {
+    box-sizing: content-box;
+    color:white;
+    background-color:#4aaaa5;
+    padding: 32px;
+    height: 36px;
+    margin-left: 211px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    float: left;
+    font-family:'Georgia', Times, Times New Roman, serif;
+}
+
+/* Navigation block*/
+#navigation {
+    text-decoration: none;
+    font-family:'Georgia', Times, "Times New Roman", serif;
+    float: left;
+    color: rgb(110, 110, 110);
+    height: 17.75px;
+    margin: 57px 0px;
+    margin-left: 360px;
+}
+
+/* Links for the navigation block*/
+.navlink {
+    padding: 10px;  
+}
+
+#portfolioSection {
+    width: 960px;
+    padding: 30px; 
+    text-align: center;
+    background-color: white;
+    clear: both;
+    border: lightgrey;
+    border-style:solid;
+    border-width: 1px;
+    margin-left: 211px;
+    margin-bottom: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777777; 
+}
+
+#portfolioHeading {
+    font-family:'Georgia', Times, "Times New Roman", serif;
+    color: #4aaaa5;
+    font-size: 20pt;
+}
+ /* */
+/* Line seperating the heading and the blocks*/
+#hrPortfolio {
+    color: #666666;
+    border-width: 1px;
+}
+
+#portfolioGrid {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+/* This is the positioning for each block*/
+#hangmanBlock, #rpgBlock, #triviaBlock, 
+#rutgersBlock, #rpsBlock {
+    position: relative;
+    margin: 10px;
+}
+
+.portfolio-images{
+    width: 300px; 
+    height: 300px;
+}
+
+ /* Line seperating the heading and the blocks*/
+.text-block {
+    position: absolute;
+    background-color: #4aaaa5bd;
+    color: white;
+    width: 300px;
+    bottom: 12px;
+}
+
+ /* Text that is positioned over each image block */
+.image-text {
+    margin-left: 25px;
+    font-size: 20px;
+}
+
+ /* Line right above the footer block*/
+#hrBottomTeal {
+    margin: 0;
+    border-width: 2px;
+    border-color:rgb(0, 180, 180);
+    clear: both;
+}
+
+#copyright {
+    color: rgba(255, 255, 255, 0.801);
+    text-align: center;
+    opacity: 60%;
+    margin-top: 50px; 
+}

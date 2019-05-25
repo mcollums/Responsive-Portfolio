@@ -1,0 +1,108 @@
+
+* {
+    text-align: left; 
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-image: url(../images/papyrus.png);
+}
+
+a {
+    text-decoration: none;
+    color: rgb(110, 110, 110);
+}
+
+header {
+    box-sizing: content-box;
+    background-color: white;
+    height: 100px;
+    border-width: 1px;
+    border-color: grey;
+    border-style: solid;
+}
+
+footer {
+    background-color: grey;
+    clear: both;
+    padding-bottom: 0;
+    position: absolute; 
+    left: 0 ; right: 0; bottom: 0; 
+    height: 100px; 
+}
+
+#headerName {
+    box-sizing: content-box;
+    color:white;
+    background-color:#4aaaa5;
+    padding: 32px;
+    height: 36px;
+    margin-left: 211px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    float: left;
+    font-family:'Georgia', Times, Times New Roman, serif;
+}
+
+#navigation {
+    text-decoration: none;
+    font-family:'Georgia', Times, "Times New Roman", serif;
+    float: left;
+    color: rgb(110, 110, 110);
+    height: 17.75px;
+    margin: 57px 0px;
+    margin-left: 360px;
+}
+
+.navlink {
+    padding: 10px;  
+}
+
+#hrAboutMe {
+    color: #666666;
+    border-width: 1px;
+}
+
+#aboutMeSection {
+    width: 960px;
+    padding: 30px; 
+    text-align: center;
+    background-color: white;
+    clear: both;
+    float:left;
+    border: lightgrey;
+    border-style:solid;
+    border-width: 1px;
+    margin-left: 211px;
+    margin-bottom: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777777; 
+}
+
+#aboutMeHeading {
+    font-family:'Georgia', Times, "Times New Roman", serif;
+    color: #4aaaa5;
+    font-size: 20pt;
+}
+
+#biophoto {
+    float: left;
+    margin: 10px 15px 10px 0px;
+    width: 30%;
+    height: auto;
+}
+
+#hrBottomTeal {
+    margin: 0;
+    border-width: 2px;
+    border-color:rgb(0, 180, 180);
+    clear: both;
+}
+
+#copyright {
+    color: white;
+    opacity: 60%;
+    text-align: center;
+    margin-top: 50px; 
+}
