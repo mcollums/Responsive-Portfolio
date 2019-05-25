@@ -45,7 +45,7 @@ footer {
     font-family:'Georgia', Times, "Times New Roman", serif;
 }
 
-.navbar {
+.navbarlist {
     height: 102 px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: rgb(110, 110, 110);
@@ -57,7 +57,6 @@ footer {
     float: right;
     padding-right: 163px;
     padding-top: 50px;
-   
 }
 
 li {
@@ -138,20 +137,87 @@ li a:hover {
         height: 30px;
         padding: 11px 20px 10px 20px;
         font-size: 18pt;
+        margin-left: 100px;
     }
 
-    .navbar {
+    .navbarlist {
         padding-right: 20px;
         padding-top: 0px;
         font-size: 12pt;
     }
 
+    #biophoto {
+        min-width: 200px;
+    }
+
+    #aboutMeSection {
+        margin-left: 100px;
+    }
 }
 
 @media screen and (max-width: 768px) {
-    
+    #headerName {
+        margin-left: 30px;
+    }
+
+    .navbarlist {
+        font-size: 11pt;
+        margin-right: 45px;
+        margin-top: 5px;
+    }
+
+    #aboutMeSection {
+        margin-left: 30px;
+        width: 90%;
+        line-height: 1.5em;
+        font-size: 12pt;
+    }
+
+    p {
+        margin-top: 0;
+    }
+
+    #biophoto {
+        margin-top: 0;
+    }
+
 }
 
 @media screen and (max-width: 640px) {
-    
+    #headerName {
+        clear: both;
+        width: 100%;
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .navbarlist {
+        width: 100%;
+        text-align: center;
+        padding: 0;
+        margin: 0 auto;
+    }
+
+    #aboutMeSection {
+        margin-top: 20px;
+    }
+
+    #biophoto {
+        width: 90%;
+        margin-left: 20px;
+    }
+
+    footer {
+        clear: both;
+        position: fixed;
+        padding-bottom: 0;
+        height: 60px; 
+        margin-top: -50px;
+    }
+
+    #copyright {
+        font-size: 10pt;
+        color: #ccc;
+        margin-top: 25px;
+    }
 }
