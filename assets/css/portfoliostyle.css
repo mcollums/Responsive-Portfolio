@@ -41,7 +41,7 @@ footer {
     height: 36px;
     margin: 0px 0px 0px 100px;
     float: left;
-    font-family:'Georgia', Times, Times New Roman, serif;
+    font-family:'Georgia', Times, "Times New Roman", serif;
 }
 
 /* Navigation Formatting */
